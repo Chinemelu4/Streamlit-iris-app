@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd 
 import streamlit as st
 from sklearn import datasets
 from sklearn.neighbors import KNeighborsClassifier
