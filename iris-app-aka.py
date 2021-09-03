@@ -35,5 +35,5 @@ prediction=model.predict(df)
 st.subheader("Class labels and their corresponding index number")
 st.write(iris.target_names)
 
-st.subheader('Prediction')
+st.subheader('Prediction') 
 st.write(iris.target_names[prediction])
