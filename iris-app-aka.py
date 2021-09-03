@@ -5,7 +5,7 @@ from sklearn.neighbors import KNeighborsClassifier
 
 def user_input():
   sepal_length= st.sidebar.slider('Sepal Length',4.3,7.9,5.4)   #min,max,initial
-  sepal_width= st.sidebar.slider('Sepal Width',2.0,4.4,3.4)     #min,max,initial
+  sepal_width= st.sidebar.slider('Sepal Width',2.0,4.4,3.4)     #min,max,initial 
   petal_length= st.sidebar.slider('Petal Length',1.0,6.9,5.4)
   petal_width= st.sidebar.slider('Petal Width',0.,2.5,1.4)
   data={'sepal_length':sepal_length,
