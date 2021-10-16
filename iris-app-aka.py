@@ -14,12 +14,12 @@ def user_input():
         'petal_width':petal_width}
   features=pd.DataFrame(data,index=[0])
   return features
-st.write("# Simple **Iris Flower** Prediction App")
+st.write("#My **Iris Flower** Prediction App")
 st.write("# Iris Dataset")
 st.write("number of classes:3")
 st.write("classifier: KNN")
 st.write("Accuracy= 0.95")
-st.sidebar.header("User Input Parameters")
+st.sidebar.header("Input Parameters")
 
 df=user_input()
 st.write(df)
