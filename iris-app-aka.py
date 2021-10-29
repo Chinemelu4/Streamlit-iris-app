@@ -14,10 +14,9 @@ def user_input():
         'petal_width':petal_width}
   features=pd.DataFrame(data,index=[0])
   return features
-st.write("#My **Iris Flower** Prediction App")
-st.write("# Iris Dataset")
+st.write("# Welcome to Aka's Iris Flower Prediction App")
 st.write("number of classes:3")
-st.write("classifier: KNN")
+st.write("Classifier: KNN")
 st.write("Accuracy= 0.95")
 st.sidebar.header("Input Parameters")
 
@@ -37,3 +36,4 @@ st.write(iris.target_names)
 
 st.subheader('Prediction') 
 st.write(iris.target_names[prediction])
+st.write("Happy learning")
